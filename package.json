@@ -1,0 +1,29 @@
+{
+  "name": "typescript-cli-calculator",
+  "version": "1.0.0",
+  "description": "A CLI Calculator built with TypeScript.",
+  "main": "lib/index.js",
+  "types": "lib/index.d.ts",
+  "scripts": {
+    "build": "tsc",
+    "prepare": "npm run build"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/SameerAhm-ed/typescript-cli-calculator.git"
+  },
+  "keywords": [
+    "cli calculator",
+    "typescript calculator"
+  ],
+  "author": "Sameer Ahmed <sameer03054@gmail.com>",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/SameerAhm-ed/typescript-cli-calculator/issues"
+  },
+  "homepage": "https://github.com/SameerAhm-ed/typescript-cli-calculator#readme",
+  "devDependencies": {
+    "typescript": "^4.9.3"
+  },
+  "files": ["lib/**/*"]
+}
