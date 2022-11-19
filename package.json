@@ -4,6 +4,7 @@
   "description": "A CLI Calculator built with TypeScript.",
   "main": "lib/index.js",
   "types": "lib/index.d.ts",
+  "type": "module",
   "scripts": {
     "build": "tsc",
     "prepare": "npm run build"
