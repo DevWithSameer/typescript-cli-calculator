@@ -1,11 +1,12 @@
 {
-  "name": "sameer-cli-calculator",
-  "version": "1.0.0",
+  "name": "sameercal",
+  "version": "1.0.3",
   "description": "A CLI Calculator built with TypeScript.",
   "main": "lib/index.js",
   "types": "lib/index.d.ts",
   "type": "module",
   "scripts": {
+    "start": "node .",
     "build": "tsc",
     "prepare": "npm run build"
   },
@@ -23,10 +24,9 @@
     "url": "https://github.com/SameerAhm-ed/typescript-cli-calculator/issues"
   },
   "homepage": "https://github.com/SameerAhm-ed/typescript-cli-calculator#readme",
-  "bin": "/lib/index.js",
-  "files": [
-    "lib/**/*"
-  ],
+  "bin": {
+    "sameercal": "lib/index.js"},
+
   "dependencies": {
     "chalk": "^5.1.2",
     "chalk-animation": "^2.0.3",
